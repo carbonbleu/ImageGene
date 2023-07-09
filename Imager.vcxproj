@@ -168,6 +168,9 @@
     <Font Include="src\ImageGene\Fonts\ariali.ttf" />
     <Font Include="src\ImageGene\Fonts\ariblk.ttf" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -60,4 +60,7 @@
     <Font Include="src\ImageGene\Fonts\ariali.ttf" />
     <Font Include="src\ImageGene\Fonts\ariblk.ttf" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+  </ItemGroup>
 </Project>

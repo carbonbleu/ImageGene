@@ -533,7 +533,7 @@ namespace ImageGene {
 	}
 	Image& DitherFloydSteinberg(Image* image)
 	{
-		// TODO: insert return statement here
+		//// TODO: insert return statement here
 		uint8_t ditheringFilter[4] = { 7, 3, 5, 1 };
 
 		for (uint32_t y = 0; y < image->h; y++) {
@@ -569,7 +569,7 @@ namespace ImageGene {
 				}
 			}
 		}
-
+		
 		return *image;
 	}
 }

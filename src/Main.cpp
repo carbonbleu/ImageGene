@@ -4,19 +4,21 @@
 #include "ImageGene/Image.h"
 
 int main() {
-	ImageGene::Image test1("fuji.jpg");
+	ImageGene::Image test1("david.png");
 
 	ImageGene::Image test2 = test1;
 	ImageGene::DitherRandom(&test2);
-	test2.Write("fuji_ditherrandom.png");
+	test2.Write("david_ditherrandom.png");
 
 	ImageGene::Image test3 = test1;
 	ImageGene::DitherThreshold(&test3);
-	test3.Write("fuji_ditherthreshold.png");
+	test3.Write("david_ditherthreshold.png");
 	
 	ImageGene::Image test4 = test1;
 	ImageGene::DitherFloydSteinberg(&test4);
-	test4.Write("fuji_ditherfloyd.png");
+	test4.Write("david_ditherfloyd.png");
+
+	std::getchar();
 
 	return 0;
 }
